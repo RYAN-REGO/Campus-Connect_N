@@ -1,0 +1,25 @@
+@media (min-width : 1128px) and (max-width : 2280px)
+{
+    .box{
+        height: 50px;
+        width: 50px;
+        background-color: black;
+        position: sticky;
+        border-radius: 50%;
+        z-index: 190;
+        right: 455px;
+        top: 86vh;
+
+    }
+    .containerr{
+        position: absolute;
+        height: 200vh;
+        width: 50px;
+        background-color: red;
+        
+        /* border-radius: 50%; */
+        z-index: 190;
+        right: 455px;
+        top: 20vh;
+    }
+}

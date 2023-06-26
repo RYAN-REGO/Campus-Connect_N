@@ -1,0 +1,72 @@
+.cardGrid{
+    z-index : 0;
+    display : flex;
+    
+    flex-direction: column;
+    position: relative;
+    width : calc(66.6%);
+    height : 100vh;
+    background-color: transparent;
+    gap : 10px;
+    justify-content: space-between;
+    gap: 41px;
+}
+.Cards{
+    display : flex;
+    flex-wrap: wrap;
+    
+    position : relative;
+    width : calc(98.6%);
+    gap : 10px;
+    
+}
+@media (max-width : 550px)
+{
+    .Cards{
+        padding-left: 10px;
+    }
+}
+@media (min-width : 551px) and (max-width : 690px)
+{
+    .Cards{
+        width: 102%;
+    }
+    
+}
+.headline{
+    color : #7DC1FF;
+        font-family: 'Roboto', sans-serif;
+        position : absolute;
+        display : block;
+        margin-top : 20px;
+        margin-left : 2rem; 
+        cursor : pointer;
+        padding-bottom : 10px; 
+        font-size : 17px;
+        letter-spacing : 1px;
+        width : 97%;
+        margin-bottom : 2rem;
+        font-weight: 500;
+}
+.Under{
+    margin-left : 2rem;
+    height : 1px;
+    width : 110px;
+    position : absolute;
+    display : block;
+    background-color : #7DC1FF;
+    margin-top : 3rem;
+    
+    margin-bottom : 2rem;
+}
+@media (max-width : 1283px)
+{
+    
+    .cardGrid{
+        display : flex;
+        width : 100%;
+        position: relative;
+        background-color: #0A1929;
+        top: 95vh;
+    }
+}
